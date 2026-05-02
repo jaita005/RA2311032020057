@@ -1,21 +1,21 @@
-#STAGE 1 - NOTIFICATION PRIORITY 
+# STAGE 1 - NOTIFICATION PRIORITY 
 
-##Problem Statement 
+## Problem Statement 
 Design a notification system that can handle different types of notifications and prioritize them based on user preferences and urgency(Top 10 notifications in this case). The system should be scalable to accommodate a large number of users and notifications.
 
-##Solution 
+## Solution 
 This solution fetches notifications from an API and processes them to display the **Top 10 most important notifications** based on priority and recency.
 
-##Approach 
+## Approach 
 
 ### Creating weight maps 
 
 placement> result> event
 
 assigned priority weights:
-bash ''' Placement: 3,
-Result: 2,
-Event: 1 '''
+   Placement: 3,
+   Result: 2,
+   Event: 1
 
 ### Sorting 
 
